@@ -1,0 +1,421 @@
+@font-face {
+    font-family: Ifood-normal;
+    src: url(../Fonts/381d4e2515cc49f0-s.p.otf);
+}
+@font-face {
+    font-family: Ifood-bold;
+    src: url(../Fonts/b642f206b45f6b28-s.p.otf);
+}
+@font-face {
+    font-family: Ifood-normal-bold;
+    src: url(../Fonts/bdf99ee6a558a558-s.p.otf);
+}
+@font-face {
+    font-family: Ifood-normal-line-bold;
+    src: url(../Fonts/ee826c832bffe352-s.p.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+display: flex;
+flex-direction: column;
+position: sticky;
+top: 0;
+z-index: 2;
+}
+
+.cimaVermelho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(156, 5, 11);
+    width: auto;
+    height: 45px;
+    position: sticky;
+}
+.cimaVermelho div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 0px 25px;
+}
+
+.corRosaContaste{
+    font-family: Ifood-normal-bold;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.corContraste{
+    font-family: Ifood-normal-bold;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+.Contraste{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.circuloP{
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    border: 1px white solid;
+    background-color: black;
+}
+.circuloB{
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    border-style: none;
+    background-color: white;
+}
+
+
+.cimaLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: auto;
+    padding: 0px 40px;
+    height: 80px;
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.opcoes{
+    width: 1001px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Ifood-normal;
+    font-weight: 600;
+    font-size:  1rem;
+}
+
+.cimaLogo a{
+    text-decoration: none;
+     color: rgb(65, 65, 67);
+}
+
+.cimaLogo button{
+    width: 187px;
+    height: 52px;
+    margin-left: 48px;
+    border-radius: 52px;
+    background-color: rgb(234, 29, 44);
+    color: white;
+    font-size: 1.13rem;
+    font-family: ifood-bold;
+    border-style: none;
+}
+
+.cimaLogo button:hover{
+   cursor: pointer;
+}
+
+.Pt a{
+        margin-right: 20px;
+        color: rgb(234, 29, 44);
+}
+
+.culturaIfood{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   background-image: url(../Images/cultura-overview.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% center;
+    width: auto;
+    height: 600px;
+}
+
+.letrasCultura{
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    height: 340px;
+    padding: 140px 200px;
+    font-family: ifood-normal;
+    font-size: 3.375rem;
+    gap: 8px;
+}
+
+.letrasCultura h2{
+    font-family: ifood-normal-line-bold;
+    font-size: clamp(22px, 3.5vw, 30px);
+    font-weight: 300;
+
+}
+.letrasCultura h1{
+    font-family: ifood-normal;
+    font-size: 1em;
+    font-weight: 300;
+ }
+ .letrasCultura h1 strong{
+    font-family: ifood-normal-bold;
+ }
+
+ .letrasCultura p{
+    font-size: clamp(22px, 3.5vw, 30px);
+ }
+ .letrasCultura button{
+    width:349px ;
+    height:62px ;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: rgb(234, 29, 44);
+    font-family: ifood-normal;
+    font-weight: 400;
+    color: white;
+    border-style: none;
+    margin-top: 2.5rem;
+ }
+
+ .letrasCultura button:hover{
+    cursor: pointer;
+ }
+
+.serIfood{
+    width: 1170px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    padding: 104px 20px;
+}
+
+.imagemSerIfood{
+    width: 522px;
+    height: 505px;
+    margin-left: -69px;
+    max-width: 100%;
+}
+
+.serIfoodLetras{
+    width: 50%;
+   
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.textoSerIfood{
+    width: 565px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: ifood-normal-line-bold;
+    font-size: 16px;
+}
+
+.tituloSerIfood{
+    
+    font-family: ifood-normal;
+    margin-bottom: 36px;
+    font-size: 47px !important;
+    font-weight: 400 !important;
+    
+}
+.tituloSerIfood strong{
+    font-family: ifood-normal-bold;
+    font-weight: 700;
+    color: rgb(234, 29, 44);
+
+}
+.valoresIfood{
+    padding: 0px;
+    width: 1170px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0px auto;
+}
+
+.retanguloVermelho{
+    width: 585px;
+    height: 357px;
+    position: relative;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.letasRetangulo{
+width: 525px;
+
+}
+
+.retanguloVermelho h2{
+    padding: 0px 30px;
+    font-family: ifood-normal;
+    font-size: 3.75rem;
+    font-weight: 400;
+    line-height: 1.1em;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.retanguloVermelho h2 strong{
+    font-family: ifood-normal-bold;
+}
+.retanguloVermelho p{
+    padding: 0px 30px;
+    position: relative;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    font-family: ifood-normal-line-bold;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.retanguloVermelho::after {
+    content: "";
+    width: calc(100% + 130px);
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgb(200, 0, 36);
+    border-top-right-radius: 110px;
+}
+.imagemValores{
+    width: 543px;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.Empreender{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1170px;
+    overflow: hidden;
+    padding: 4rem 0px;
+    margin: 0 auto;
+}
+
+
+.imagem{
+    flex: 0.5 1 0%;
+    margin: 0px 20px;
+    margin-bottom: 160px;
+    max-width: 41%;
+}
+
+.letrasEmpreender{
+    flex: 1 1 0%;
+    margin: 20px;
+    max-width: 50%;
+}
+
+.letrasEmpreender h2{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 28px;
+    padding: 12px 18px;
+    border-top-right-radius: 25px;
+    display: inline-block;
+    background: rgb(234, 29, 44);
+    font-family: ifood-normal-bold;
+}
+
+.letrasEmpreender p{
+    font-size: 1.125rem;
+    margin-bottom: 60px;
+    font-family: ifood-normal-line-bold;
+}
+
+.retangulo{
+    margin-bottom: 20px;
+    position: relative;
+    width: 585px;
+    height: 152px;
+}
+
+figure{
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.retangulos{
+    height: 100px;
+    padding: 24px 24px 24px 75px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px, rgba(0, 0, 0, 0.12) 0px 7px 20px;
+    border-radius: 8px;
+    margin-left: 46px;
+}
+
+.retangulos p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 144%;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0px;
+    font-family: ifood-normal-line-bold;
+ }
+
+ .imageRetangulos{
+    width: 60px;
+ }
+
+
+.retangulos h3{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 22px;
+    color: rgb(234, 29, 44);
+    margin: 0px 0px 11px;
+   font-family: ifood-normal-line-bold;
+}
